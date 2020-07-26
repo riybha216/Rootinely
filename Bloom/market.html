@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: lightblue;
+}
+</style>
+</head>
+<body>
+
+<h2><center>Marketplace</center></h2>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <h3>4ocean</h3>
+      <p>Bracelets made with recycled materials.</p>
+        <div style="text-align: center" >
+                        <a href="https://www.4ocean.com/" class="button" align="center"> Buy with credits!</a>
+                            </div>
+    </div>
+  </div>
+    <div class="column">
+    <div class="card">
+      <h3>Zero Waste Store</h3>
+      <p>Environmentally-friendly alternatives for day-to-day items.</p>
+        <div style="text-align: center" >
+                        <a href="https://zerowastestore.com/" class="button" align="center">Buy with credits!</a>
+                            </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <h3>Arbor Day Foundation </h3>
+      <p>Planting and caring for trees</p>
+        <div style="text-align: center" >
+                        <a href="https://www.arborday.org/" class="button" align="center">Buy with credits!</a>
+                            </div>
+    </div>
+  </div>
+  
+  
+  <div class="column">
+    <div class="card">
+      <h3>Novica</h3>
+      <p>E-commerce website where people can sell their handcrafted goods to customers</p>
+        <div style="text-align: center" >
+                        <a href="https://www.novica.com/" class="button" align="center">Buy with credits!</a>
+                            </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
